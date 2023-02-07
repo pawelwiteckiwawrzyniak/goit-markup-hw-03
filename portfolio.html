@@ -13,39 +13,59 @@
     <title>goit-markup-hw-03</title>
   </head>
   <body>
-    <header>
-      <a class="header-logo" href="./index.html"
-        ><span class="logo-color">Web</span>Studio</a
-      >
-      <nav>
-        <a href="./index.html">Agencja</a>
-        <a href="./portfolio.html">Portfolio</a>
-        <a href="#contact">Kontakt</a>
-      </nav>
-      <a class="header-contact" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="header-contact" href="tel:+48111111111">+48 111 111 111</a>
+    <header class="container">
+      <ul class="header-pages">
+        <li>
+          <a class="header-logo" href="./index.html"
+            ><span class="logo-color">Web</span>Studio</a
+          >
+        </li>
+        <li>
+          <nav>
+            <ul class="navigation">
+              <li class="navigation-page">
+                <a href="./index.html">Agencja</a>
+              </li>
+              <li class="navigation-page">
+                <a class="current-page" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="navigation-page"><a href="#contact">Kontakt</a></li>
+            </ul>
+          </nav>
+        </li>
+      </ul>
+      <ul class="header-contact-group">
+        <li>
+          <a class="header-contact" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="header-contact" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
+      </ul>
     </header>
-    <main>
-      <div>
-        <ul>
-          <li>
+    <main class="container">
+      <section class="section">
+        <ul class="filter-list">
+          <li class="filter-list-item">
             <button class="filter-button" type="button">Wszystkie</button>
           </li>
-          <li><button class="filter-button" type="button">Strony</button></li>
-          <li>
+          <li class="filter-list-item">
+            <button class="filter-button" type="button">Strony</button>
+          </li>
+          <li class="filter-list-item">
             <button class="filter-button" type="button">Aplikacje</button>
           </li>
-          <li><button class="filter-button" type="button">Dizajn</button></li>
-          <li>
+          <li class="filter-list-item">
+            <button class="filter-button" type="button">Dizajn</button>
+          </li>
+          <li class="filter-list-item">
             <button class="filter-button" type="button">Marketing</button>
           </li>
         </ul>
-      </div>
-      <div>
-        <ul>
-          <li>
+        <ul class="project-list">
+          <li class="project-list-item">
             <figure>
               <img
                 src="./images/portfolio1.jpg"
@@ -54,13 +74,13 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
+              <figcaption class="project-list-item-description">
                 <p class="project-name">Technocrack</p>
                 <p class="project-type">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="project-list-item">
             <figure>
               <img
                 src="./images/portfolio2.jpg"
@@ -68,13 +88,13 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
+              <figcaption class="project-list-item-description">
                 <p class="project-name">Grafika New Orlean vs Golden Star</p>
                 <p class="project-type">Dizajn</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="project-list-item">
             <figure>
               <img
                 src="./images/portfolio3.jpg"
@@ -82,13 +102,13 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
+              <figcaption class="project-list-item-description">
                 <p class="project-name">Restauracja Seafood</p>
                 <p class="project-type">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="project-list-item">
             <figure>
               <img
                 src="./images/portfolio4.jpg"
@@ -96,13 +116,13 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
+              <figcaption class="project-list-item-description">
                 <p class="project-name">Projekt Prime</p>
                 <p class="project-type">Marketing</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="project-list-item">
             <figure>
               <img
                 src="./images/portfolio5.jpg"
@@ -110,13 +130,13 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
+              <figcaption class="project-list-item-description">
                 <p class="project-name">Projekt Boxes</p>
                 <p class="project-type">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="project-list-item">
             <figure>
               <img
                 src="./images/portfolio6.jpg"
@@ -124,13 +144,13 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
+              <figcaption class="project-list-item-description">
                 <p class="project-name">Inspiration has no Borders</p>
                 <p class="project-type">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="project-list-item">
             <figure>
               <img
                 src="./images/portfolio7.jpg"
@@ -138,13 +158,13 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
+              <figcaption class="project-list-item-description">
                 <p class="project-name">Magazyn Limited Edition</p>
                 <p class="project-type">Dizajn</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="project-list-item">
             <figure>
               <img
                 src="./images/portfolio8.jpg"
@@ -152,13 +172,13 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
+              <figcaption class="project-list-item-description">
                 <p class="project-name">Projekt LAB</p>
                 <p class="project-type">Marketing</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="project-list-item">
             <figure>
               <img
                 src="./images/portfolio9.jpg"
@@ -166,14 +186,14 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
+              <figcaption class="project-list-item-description">
                 <p class="project-name">Growing Business</p>
                 <p class="project-type">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
         </ul>
-      </div>
+      </section>
     </main>
     <footer id="contact">
       <a class="footer-logo" href="./index.html"
